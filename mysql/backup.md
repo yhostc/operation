@@ -12,8 +12,6 @@ MySQL 定时自动备份
 >chmod +x /opt/shell/mysql/backup.sh
 
 3、重启
-```sh
-cat "00 3  *  *  * root /mnt/backup/mysql/bakmysql.sh" >> /etc/crontab
+>cat "00 3  *  *  * root /mnt/backup/mysql/bakmysql.sh" >> /etc/crontab
 
-service crond restart
-```
+>service crond restart
